@@ -1,0 +1,192 @@
+{
+	"com.badlogic.gdx.graphics.Color": {
+		"white": {
+			"r": 1,
+			"g": 1,
+			"b": 1,
+			"a": 1
+		},
+		"black": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 1
+		},
+		"red": {
+			"r": 1,
+			"g": 0,
+			"b": 0,
+			"a": 1
+		},
+		"green": {
+			"r": 0,
+			"g": 1,
+			"b": 0,
+			"a": 1
+		},
+		"blue": {
+			"r": 0,
+			"g": 0,
+			"b": 1,
+			"a": 1
+		}
+	},
+	"com.badlogic.gdx.graphics.g2d.BitmapFont": {
+		"white32": {
+			"file": "font/white32.fnt"
+		},
+		"black32": {
+			"file": "font/black32.fnt"
+		},
+		"white16": {
+			"file": "font/white16.fnt"
+		},
+		"black16": {
+			"file": "font/black16.fnt"
+		},
+		"white12": {
+			"file": "font/white12.fnt"
+		},
+		"black12": {
+			"file": "font/black12.fnt"
+		},
+		"white8": {
+			"file": "font/white8.fnt"
+		},
+		"black8": {
+			"file": "font/black8.fnt"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable": {
+		"dialogDim": {
+			"name": "white",
+			"color": {
+				"r": 0,
+				"g": 0,
+				"b": 0,
+				"a": 0.45
+			}
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle": {
+		"default": {
+			"down": "button.down",
+			"up": "button.up"
+		},
+		"toggle": {
+			"down": "button.down",
+			"checked": "button.down",
+			"up": "button.up"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle": {
+		"default": {
+			"up": "button.up",
+			"down": "button.down",
+			"font": "white16",
+			"fontColor": "white"
+		},
+		"toggle": {
+			"down": "button.down",
+			"up": "button.up",
+			"checked": "button.down",
+			"font": "white16",
+			"fontColor": "white",
+			"downFontColor": "red"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle": {
+		"default": {
+			"vScroll": "scrollbar",
+			"hScrollKnob": "scrollbar.knob",
+			"background": "rectangle",
+			"hScroll": "scrollbar",
+			"vScrollKnob": "scrollbar.knob"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle": {
+		"default-vertical": {
+			"handle": "splitpane.vertical"
+		},
+		"default-horizontal": {
+			"handle": "splitpane"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle": {
+		"default": {
+			"titleFont": "white16",
+			"background": "window",
+			"titleFontColor": "white"
+		},
+		"dialog": {
+			"titleFont": "white16",
+			"background": "window",
+			"titleFontColor": "white",
+			"stageBackground": "dialogDim"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle": {
+		"default-horizontal": {
+			"background": "slider",
+			"knob": "slider.knob"
+		},
+		"default-vertical": {
+			"background": "slider",
+			"knob": "scrollbar.knob"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle": {
+		"default-horizontal": {
+			"background": "slider",
+			"knob": "slider.knob"
+		},
+		"default-vertical": {
+			"background": "slider",
+			"knob": "scrollbar.knob"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle": {
+		"default": {
+			"font": "white16",
+			"fontColor": "white"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle": {
+		"default": {
+			"selection": "selection",
+			"background": "textfield",
+			"font": "white16",
+			"fontColor": "white",
+			"cursor": "cursor"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle": {
+		"default": {
+			"checkboxOn": "check.on",
+			"checkboxOff": "textfield",
+			"font": "white16",
+			"fontColor": "white"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle": {
+		"default": {
+			"fontColorUnselected": "white",
+			"selection": "selection",
+			"fontColorSelected": "white",
+			"font": "white16"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle": {
+		"default": {
+			"background": "pane",
+			"knob": "scrollbar.knob"
+		}
+	},
+	"com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle": {
+		"default": {
+			"minus": "tree.minus",
+			"plus": "tree.plus",
+			"selection": "selection"
+		}
+	}
+}

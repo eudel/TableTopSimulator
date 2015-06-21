@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="26" tilewidth="16" tileheight="16" backgroundcolor="#ffffff">
+ <tileset firstgid="1" name="collision" tilewidth="16" tileheight="16">
+  <image source="ortho_indoor_collision.png" width="48" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collision" value=""/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collision" value=""/>
+   </properties>
+  </tile>
+ </tileset>
+ <tileset firstgid="7" name="tilea2" tilewidth="16" tileheight="16">
+  <image source="tilea2.png" width="512" height="384"/>
+ </tileset>
+ <tileset firstgid="775" name="tilea4" tilewidth="16" tileheight="16">
+  <image source="tilea4.png" width="512" height="480"/>
+ </tileset>
+ <layer name="ground" width="20" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo4CBIR6IE6A4EYkG4SQyzKsH4gYobkSiQbhpEJg3H4gXQPFCJBqEFw1B9+GKPxitSKL7cPkHnSbWfcSaR6z7cIUPIXrUfSPTfdQ2bz8QH4DigyTQIHwIi3mDFQAALkuG2Q==
+  </data>
+ </layer>
+ <layer name="wall" width="20" height="26">
+  <data encoding="base64" compression="zlib">
+   eJztlcENwjAMRXMoZwqLAF0E2kVoO0k7SVsWIWUS2KA/UpAiZMU2ucbS07/Y1ot8yFwYs4A5khaskVyDfq7XZQ/eng+Rjs7vjHl98wH2O2NKcCDyCCbhW6zfd8LMGVyIrMDT90r9rpi5gZrI5g+/O2Za0BHZB35WsNPt4yr04+7XCvaFfpL7afxegvtp/bj7af24+2n9UuvXL7WyX/bLfjK/BgxgTMi6kP9HmtwA8Mi1WA==
+  </data>
+ </layer>
+ <layer name="deco" width="20" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwShABQAIIAAB
+  </data>
+ </layer>
+ <layer name="object" width="20" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwShABQAIIAAB
+  </data>
+ </layer>
+ <layer name="collision" width="20" height="26">
+  <data encoding="base64" compression="zlib">
+   eJxjZmBgYKYzZiQSj5pHP/MIAWTziLF71Dz6mkcpGDVv1LxR8wbOPGpgWtTVANgGAik=
+  </data>
+ </layer>
+ <objectgroup name="event">
+  <object name="home-home_basement" type="teleport_target" x="224" y="96" width="32" height="32"/>
+  <object name="home_basement-home" type="teleport" x="224" y="64" width="32" height="32"/>
+ </objectgroup>
+ <objectgroup name="enemy"/>
+</map>

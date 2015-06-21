@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" renderorder="right-down" width="19" height="21" tilewidth="64" tileheight="32" backgroundcolor="#000000">
+ <properties>
+  <property name="DeleteTiles" value="true"/>
+ </properties>
+ <tileset firstgid="1" name="collision" tilewidth="64" tileheight="32">
+  <image source="tiled_collision.png" width="960" height="32"/>
+ </tileset>
+ <tileset firstgid="16" name="set_rules" tilewidth="64" tileheight="32">
+  <image source="set_rules.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="24" name="cave" tilewidth="64" tileheight="128">
+  <image source="tiled_cave.png" width="1024" height="1920"/>
+ </tileset>
+ <tileset firstgid="264" name="cave_wood_walk" tilewidth="64" tileheight="56">
+  <image source="tiled_cave_wood_walk_1.png" width="1024" height="168"/>
+ </tileset>
+ <tileset firstgid="312" name="teleport" tilewidth="128" tileheight="64">
+  <image source="teleport_128.png" width="128" height="320"/>
+  <tile id="4">
+   <animation>
+    <frame tileid="1" duration="150"/>
+    <frame tileid="2" duration="150"/>
+    <frame tileid="3" duration="150"/>
+    <frame tileid="4" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer name="ground" width="19" height="21">
+  <data encoding="base64" compression="zlib">
+   eJy9VFtOxDAM9DG6abttN017jeztASHxWn4QSCAugi3GiglpwxeRRm3iyXjspCX6OSLjTPvjLxzlNTtcjXcVzhm8Q4U3Mk7gbXEkPjB6aFlY3sQ4Iu+W7wW8Fs8T/a5XuCsjFPIQ+OLFgyeaM2oYM38NYpov9x6N94A6PfY4+u6zg08P/Q6YMe8L3h1yjpTOocNc1zz6pb4DOFYrIrfu0TWPfVrfAVoL8jeZjr0Peaw3fVyB0ojYqzn13GyvnxmPWb2l+6d5Zc8ErtT/wLgG3hg34EkvByrf05ihhb97xivjk/EOLY3VhtY6UrrXF8YdNEVrhd7ed606K+ro8DwCt4wXSj3zFR3xHqDn8T5h/YrxAW97Q3UcpXMXrcHUezF11uqLRk80Wvhq8JR65SyeaPs/Y/Wcmc/wo7GJ0vcYKlq6ZzHvW3f7v8YXTUs4YA==
+  </data>
+ </layer>
+ <layer name="object" width="19" height="21">
+  <data encoding="base64" compression="zlib">
+   eJylVNkOgkAM7OcpeF8oir4ajbckHj9vJ3bDWrcgcZIJe3R7F6JPjJg5c0w2nEy/RAZYyzcy7vfMg6xnhs0H88RcyL5TYcshZPOq9pnobivbN2+dMgfqHfx+Gn5o277NjL5jbJToAZCXHfNORQ58fU25AxLmvEJfHeh8/YMhffq2ZMb0u7+pfHv0jnnqnbv6WLmETFd4EfkNc6vkkE/0Qu7p1wj1aavafRNntR+Kn3VzA3ndpw6I1YpHAzmw5hp6yvo+hNAcjmr4A7j6TQJ3eu6rgPpZ8WF+VjX1Wf824GicI55QbXUv+PDnB7Pj/Iyo6Bn0diwM5Urrc3LJj280XsS4KYA=
+  </data>
+ </layer>
+ <layer name="collision" width="19" height="21" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJylVEEKwDAIU7v/v3kMWhBJbGRCTotpYl2Xma0ET1gECufwrOF54SCeA153ljU8xEFZHHCYb1RTra6qR/ZN8aWW6m2qhWahnlEzor1hWnWGyjw/xAbiKHcYACwX2vese/qfjSga3f+IsjJfUx2myfKpe3qyxiWfsj/Z1598VY/lu3lj5yhvbu3vdvv2Nk97Kl4gxgH+
+  </data>
+ </layer>
+ <layer name="set" width="19" height="21" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJydlFEKwCAMQ72C2vufdQwcSEjadB/5Mj6bWp1jjHkpLk0hx/P5VuIL8DBfEF921kp8zMOyBPGoupm6LMVhNao1py5Xbm1dFuuFewZmZHOjWNhDp5+v9hHzOHe4ibJZwXxhsqr3yLJWLJejmNU7rO79ZmX5nPlhrD/5kKfyVbWpc5w/F/dns139zd09qAd93xyj
+  </data>
+ </layer>
+ <objectgroup name="event"/>
+ <objectgroup name="enemy"/>
+</map>
