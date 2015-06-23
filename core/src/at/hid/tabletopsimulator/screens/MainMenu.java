@@ -69,7 +69,11 @@ public class MainMenu implements Screen {
 
 		FileHandle fileSplash = Gdx.files.external(".hidlauncher/" + TableTopSimulator.TITLE + "/splash.txt");
 		if (!fileSplash.exists()) {
-			fileSplash.writeString("Splash", true);
+			fileSplash.writeString("Splash\n", true);
+			fileSplash.writeString("working splash message\n", true);
+			fileSplash.writeString("Java rocks!!\n", true);
+			fileSplash.writeString("supports external splash file\n", true);
+			fileSplash.writeString("feel free to add your own", true);
 		}
 		String[] splash = null;
 		try {
